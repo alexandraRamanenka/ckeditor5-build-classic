@@ -1,11 +1,11 @@
 /**
  * @license Copyright (c) 2003-2019, CKSource - Frederico Knabben. All rights reserved.
- * For licensing, see LICENSE.md.
+ * For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
  */
 
 // The editor creator to use.
 import ClassicEditorBase from '@ckeditor/ckeditor5-editor-classic/src/classiceditor';
-
+import Plugin from '@ckeditor/ckeditor5-core/src/plugin';
 import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials';
 import UploadAdapter from '@ckeditor/ckeditor5-adapter-ckfinder/src/uploadadapter';
 import Autoformat from '@ckeditor/ckeditor5-autoformat/src/autoformat';
@@ -33,6 +33,25 @@ import FontFamily from '@ckeditor/ckeditor5-font/src/fontfamily';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
+// Create the NumRows plugin.
+/* eslint-disable space-in-parens, template-curly-spacing */
+class NumRowsPlugin extends Plugin {
+	init() {
+		const numRows = parseInt(this.editor.config.get('rows'), 10);
+		if (numRows && typeof numRows === 'number' && isFinite(numRows)) {
+			const editorHeight = (numRows * 31) + 14;
+			this.editor.ui.view.editable.extendTemplate({
+				attributes: {
+					style: {
+						minHeight: `${editorHeight}px`
+					}
+				}
+			});
+		}
+	}
+}
+/* eslint-enable space-in-parens, template-curly-spacing */
+
 // Plugins to include in the build.
 ClassicEditor.builtinPlugins = [
 	Essentials,
@@ -58,7 +77,8 @@ ClassicEditor.builtinPlugins = [
 	TableToolbar,
 	Alignment,
 	Font,
-	FontFamily
+	FontFamily,
+	NumRowsPlugin
 ];
 
 // Editor configuration.
