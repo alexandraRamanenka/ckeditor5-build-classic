@@ -34,8 +34,10 @@ import Font from '@ckeditor/ckeditor5-font/src/font';
 import FontFamily from '@ckeditor/ckeditor5-font/src/fontfamily';
 import CustomCSSClass from './plugins/customcssclass/customcssclass';
 
-export default class ClassicEditor extends ClassicEditorBase {
-}
+import TrackChanges from '@ckeditor/ckeditor5-track-changes/src/trackchanges';
+import Comments from '@ckeditor/ckeditor5-comments/src/comments';
+
+export default class ClassicEditor extends ClassicEditorBase {}
 
 // Create the NumRows plugin.
 /* eslint-disable space-in-parens, template-curly-spacing */
@@ -83,7 +85,9 @@ ClassicEditor.builtinPlugins = [
 	Alignment,
 	Font,
 	FontFamily,
-	NumRowsPlugin
+	NumRowsPlugin,
+	TrackChanges,
+	Comments
 ];
 
 // Editor configuration.
