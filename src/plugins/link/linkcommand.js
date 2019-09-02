@@ -21,6 +21,7 @@ LinkCommand.prototype.execute = function( href, text, isCustom ) {
 				const linkRange = findLinkRange( selection.getFirstPosition(), selection.getAttribute( 'linkHref' ), model );
 
 				writer.setAttribute( 'linkHref', href, linkRange );
+				writer.setAttribute( 'customCssClass', true, linkRange );
 
 				// Create new range wrapping changed link.
 				writer.setSelection( linkRange );
@@ -58,6 +59,7 @@ LinkCommand.prototype.execute = function( href, text, isCustom ) {
 
 			for ( const range of ranges ) {
 				writer.setAttribute( 'linkHref', href, range );
+				writer.setAttribute( 'customCssClass', true, range );
 			}
 		}
 	} );
