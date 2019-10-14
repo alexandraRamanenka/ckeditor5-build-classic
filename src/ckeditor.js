@@ -33,6 +33,7 @@ import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
 import Font from '@ckeditor/ckeditor5-font/src/font';
 import FontFamily from '@ckeditor/ckeditor5-font/src/fontfamily';
 import CustomCSSClass from './plugins/customcssclass/customcssclass';
+import CustomFont from './plugins/customfont/customfont';
 
 export default class ClassicEditor extends ClassicEditorBase {
 }
@@ -83,7 +84,8 @@ ClassicEditor.builtinPlugins = [
 	Alignment,
 	Font,
 	FontFamily,
-	NumRowsPlugin
+	NumRowsPlugin,
+	CustomFont
 ];
 
 // Editor configuration.
