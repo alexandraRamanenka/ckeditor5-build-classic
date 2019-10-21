@@ -8,7 +8,7 @@ export default class CustomFontCommand extends FontCommand {
 
 	execute( options = {} ) {
 		if ( !options.value ) {
-			options.value = this.editor.config._config.customFont.color;
+			options.value = this.editor.config.get( 'customFont' ).color;
 		}
 
 		super.execute( options );

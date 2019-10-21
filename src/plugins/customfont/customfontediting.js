@@ -5,7 +5,7 @@ import { CUSTOM_FONT } from './customfont';
 export default class CustomFontEditing extends Plugin {
 	init() {
 		const editor = this.editor;
-		const { customFont = {} } = editor.config._config;
+		const customFont = editor.config.get( 'customFont' ) || {};
 		const { color, underline, italic, bold } = customFont;
 
 		const styles = { color };

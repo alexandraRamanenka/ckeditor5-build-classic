@@ -34,6 +34,7 @@ import Font from '@ckeditor/ckeditor5-font/src/font';
 import FontFamily from '@ckeditor/ckeditor5-font/src/fontfamily';
 import CustomCSSClass from './plugins/customcssclass/customcssclass';
 import CustomFont from './plugins/customfont/customfont';
+import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline';
 
 export default class ClassicEditor extends ClassicEditorBase {
 }
@@ -85,7 +86,8 @@ ClassicEditor.builtinPlugins = [
 	Font,
 	FontFamily,
 	NumRowsPlugin,
-	CustomFont
+	CustomFont,
+	Underline
 ];
 
 // Editor configuration.
@@ -98,6 +100,7 @@ ClassicEditor.defaultConfig = {
 			'|',
 			'bold',
 			'italic',
+			'underline',
 			'link',
 			'bulletedList',
 			'numberedList',
