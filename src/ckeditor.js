@@ -21,6 +21,7 @@ import ImageStyle from '@ckeditor/ckeditor5-image/src/imagestyle';
 import ImageToolbar from '@ckeditor/ckeditor5-image/src/imagetoolbar';
 import ImageUpload from '@ckeditor/ckeditor5-image/src/imageupload';
 import Indent from '@ckeditor/ckeditor5-indent/src/indent';
+import IndentBlock from '@ckeditor/ckeditor5-indent/src/indentblock';
 import Link from '@ckeditor/ckeditor5-link/src/link';
 import './plugins/image/imageupload/imageuploadui';
 import List from '@ckeditor/ckeditor5-list/src/list';
@@ -65,12 +66,13 @@ ClassicEditor.builtinPlugins = [
 	CKFinder,
 	EasyImage,
 	Heading,
+	Indent,
+	IndentBlock,
 	Image,
 	ImageCaption,
 	ImageStyle,
 	ImageToolbar,
 	ImageUpload,
-	Indent,
 	Link,
 	List,
 	MediaEmbed,
