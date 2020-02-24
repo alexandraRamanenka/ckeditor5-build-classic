@@ -17,14 +17,17 @@ LinkCommand.prototype.execute = function( href, text, isCustom ) {
 
 			// When selection is inside text with `linkHref` attribute.
 			if ( selection.hasAttribute( 'linkHref' ) ) {
-				// Then update `linkHref` value.
+				// Then insert node with updated text and remove previous range.
 				const linkRange = findLinkRange( selection.getFirstPosition(), selection.getAttribute( 'linkHref' ), model );
+				const attributes = toMap( selection.getAttributes() );
 
-				writer.setAttribute( 'linkHref', href, linkRange );
-				writer.setAttribute( 'customCssClass', true, linkRange );
+				attributes.set( 'linkHref', href );
+				attributes.set( 'customCssClass', true );
 
-				// Create new range wrapping changed link.
-				writer.setSelection( linkRange );
+				const node = writer.createText( text ? text : href, attributes );
+
+				writer.insert( node, linkRange.end );
+				writer.remove( linkRange );
 			}
 			// If not then insert text node with `linkHref` attribute in place of caret.
 			// However, since selection in collapsed, attribute value will be used as data for text node.
