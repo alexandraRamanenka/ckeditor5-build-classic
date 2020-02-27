@@ -1,63 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65f7c05c-9999-4432-8c36-1f3b30d2f6f2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/build/translations/af.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/ar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/ast.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/az.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/bg.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/cs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/da.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/de-ch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/de.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/el.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/en-au.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/eo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/es.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/et.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/eu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/fa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/fi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/fr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/gl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/gu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/he.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/hr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/hu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/id.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/it.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/ja.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/km.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/kn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/ko.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/ku.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/lt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/lv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/nb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/ne.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/nl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/no.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/oc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/pl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/pt-br.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/pt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/ro.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/ru.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/si.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/sk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/sq.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/sr-latn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/sr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/sv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/tr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/tt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/ug.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/uk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/vi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/zh-cn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/translations/zh.js" beforeDir="false" />
+    <list default="true" id="04a010b6-0bba-47db-8687-b66752afc4d7" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ckeditor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ckeditor.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -72,20 +19,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+            <state relative-caret-position="210">
+              <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ckeditor.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ckeditor.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ckeditor.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="1845">
+              <caret line="123" column="6" lean-forward="true" selection-start-line="123" selection-start-column="6" selection-end-line="123" selection-end-column="6" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#211#296#0" expanded="true" />
@@ -94,16 +41,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/@ckeditor/ckeditor5-core/package.json">
+      <file leaf-file-name="imageuploadui.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/plugins/image/imageupload/imageuploadui.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+            <state relative-caret-position="30">
+              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#26#116#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Indent</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -111,7 +67,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/ckeditor.js" />
       </list>
     </option>
@@ -142,7 +97,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -153,17 +107,34 @@
             <path>
               <item name="ckeditor5-build-classic" type="b2602c69:ProjectViewProjectNode" />
               <item name="ckeditor5-build-classic" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ckeditor5-build-classic" type="b2602c69:ProjectViewProjectNode" />
               <item name="ckeditor5-build-classic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ckeditor5-build-classic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ckeditor5-build-classic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ckeditor5-build-classic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ckeditor5-build-classic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
+              <item name="imageupload" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -174,7 +145,6 @@
     <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
@@ -194,17 +164,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="65f7c05c-9999-4432-8c36-1f3b30d2f6f2" name="Default" comment="" />
-      <created>1560352057173</created>
+      <changelist id="04a010b6-0bba-47db-8687-b66752afc4d7" name="Default" comment="" />
+      <created>1578607700596</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1560352057173</updated>
-      <workItem from="1560352060094" duration="835000" />
+      <updated>1578607700596</updated>
+      <workItem from="1578607702313" duration="135000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="835000" />
+    <option name="totallyTimeSpent" value="135000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="978" extended-state="6" />
@@ -224,9 +194,9 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
@@ -238,37 +208,32 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/src/plugins/image/imageupload/imageuploadui.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@ckeditor/ckeditor5-core/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/ckeditor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7311">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <element signature="e#26#116#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ckeditor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="1845">
+          <caret line="123" column="6" lean-forward="true" selection-start-line="123" selection-start-column="6" selection-end-line="123" selection-end-column="6" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#211#296#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>
