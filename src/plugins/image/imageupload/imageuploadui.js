@@ -2,9 +2,13 @@
 
 import FileDialogButtonView from '@ckeditor/ckeditor5-upload/src/ui/filedialogbuttonview';
 import imageIcon from '@ckeditor/ckeditor5-core/theme/icons/image.svg';
-import { isImageType } from '@ckeditor/ckeditor5-image/src/imageupload/utils';
 import ModelElement from '@ckeditor/ckeditor5-engine/src/model/element';
 import ImageUploadUI from '@ckeditor/ckeditor5-image/src/imageupload/imageuploadui';
+
+function isImageType( file ) {
+	const types = /^image\/(jpeg|png|gif|bmp)$/;
+	return types.test( file.type );
+}
 
 const defaultInit = ImageUploadUI.prototype.init;
 ImageUploadUI.prototype.init = function() {
