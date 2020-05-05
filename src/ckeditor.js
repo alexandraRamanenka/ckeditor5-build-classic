@@ -120,7 +120,10 @@ ClassicEditor.defaultConfig = {
 			'imageStyle:side',
 			'|',
 			'imageTextAlternative'
-		]
+		],
+		upload: {
+			types: [ 'jpeg', 'png', 'gif', 'bmp', 'webp', 'tiff' ]
+		}
 	},
 	table: {
 		contentToolbar: [
