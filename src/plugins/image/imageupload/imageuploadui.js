@@ -2,7 +2,7 @@
 
 import FileDialogButtonView from '@ckeditor/ckeditor5-upload/src/ui/filedialogbuttonview';
 import imageIcon from '@ckeditor/ckeditor5-core/theme/icons/image.svg';
-import { isImageType } from '@ckeditor/ckeditor5-image/src/imageupload/utils';
+import { createImageTypeRegExp } from '@ckeditor/ckeditor5-image/src/imageupload/utils';
 import ModelElement from '@ckeditor/ckeditor5-engine/src/model/element';
 import ImageUploadUI from '@ckeditor/ckeditor5-image/src/imageupload/imageuploadui';
 
@@ -19,9 +19,11 @@ ImageUploadUI.prototype.init = function() {
 	editor.ui.componentFactory.add( 'imageUpload', locale => {
 		const view = new FileDialogButtonView( locale );
 		const command = editor.commands.get( 'imageUpload' );
+		const imageTypes = editor.config.get( 'image.upload.types' );
+		const imageTypesRegExp = createImageTypeRegExp( imageTypes );
 
 		view.set( {
-			acceptedType: 'image/*',
+			acceptedType: imageTypes.map( type => `image/${ type }` ).join( ',' ),
 			allowMultipleFiles: true
 		} );
 
@@ -35,7 +37,7 @@ ImageUploadUI.prototype.init = function() {
 
 		view.on( 'done', ( evt, files ) => {
 			for ( const file of Array.from( files ) ) {
-				if ( isImageType( file ) ) {
+				if ( imageTypesRegExp.test( file.type ) ) {
 					const reader = new FileReader();
 					reader.addEventListener( 'load', function() {
 						editor.model.enqueueChange( () => {
