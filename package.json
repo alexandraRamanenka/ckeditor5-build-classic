@@ -43,6 +43,7 @@
     "@ckeditor/ckeditor5-table": "^11.0.0",
     "@ckeditor/ckeditor5-theme-lark": "^11.1.0",
     "@ckeditor/ckeditor5-upload": "^10.0.3",
+    "ckeditor5-footnote": "^0.1.0",
     "postcss-loader": "^3.0.0",
     "raw-loader": "^0.5.1",
     "style-loader": "^0.23.0",

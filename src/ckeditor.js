@@ -25,6 +25,7 @@ import MediaEmbed from '@ckeditor/ckeditor5-media-embed/src/mediaembed';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
+import FootNote from 'ckeditor5-footnote/src/footnote';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -48,7 +49,8 @@ ClassicEditor.builtinPlugins = [
 	MediaEmbed,
 	Paragraph,
 	Table,
-	TableToolbar
+  TableToolbar,
+  FootNote
 ];
 
 // Editor configuration.
@@ -67,7 +69,8 @@ ClassicEditor.defaultConfig = {
 			'insertTable',
 			'mediaEmbed',
 			'undo',
-			'redo'
+      'redo',
+      'footnote'
 		]
 	},
 	image: {
