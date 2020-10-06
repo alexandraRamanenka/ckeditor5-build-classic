@@ -97,5 +97,7 @@
       "pre-commit": "lint-staged"
     }
   },
-  "dependencies": {}
+  "dependencies": {
+    "ckeditor5-footnote": "^0.1.0"
+  }
 }

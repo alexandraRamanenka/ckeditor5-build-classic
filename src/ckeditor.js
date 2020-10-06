@@ -34,6 +34,7 @@ import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
 import Font from '@ckeditor/ckeditor5-font/src/font';
 import FontFamily from '@ckeditor/ckeditor5-font/src/fontfamily';
+import FootNote from 'ckeditor5-footnote/src/footnote';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -84,7 +85,8 @@ ClassicEditor.builtinPlugins = [
 	TableToolbar,
 	Alignment,
 	Font,
-	FontFamily,
+  FontFamily,
+  FootNote,
 	NumRowsPlugin
 ];
 
@@ -113,7 +115,8 @@ ClassicEditor.defaultConfig = {
 			'alignment:right',
 			'alignment:center',
 			'undo',
-			'redo'
+      'redo',
+      'footnote'
 		]
 	},
 	image: {
