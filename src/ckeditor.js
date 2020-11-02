@@ -31,6 +31,8 @@ import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefromoffice';
 import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
+import TableProperties from '@ckeditor/ckeditor5-table/src/tableproperties';
+import TableCellProperties from '@ckeditor/ckeditor5-table/src/tablecellproperties';
 import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
 import Font from '@ckeditor/ckeditor5-font/src/font';
 import FontFamily from '@ckeditor/ckeditor5-font/src/fontfamily';
@@ -82,11 +84,13 @@ ClassicEditor.builtinPlugins = [
 	Paragraph,
 	PasteFromOffice,
 	Table,
+	TableProperties,
+	TableCellProperties,
 	TableToolbar,
 	Alignment,
 	Font,
-  FontFamily,
-  FootNote,
+	FontFamily,
+	FootNote,
 	NumRowsPlugin
 ];
 
@@ -97,8 +101,8 @@ ClassicEditor.defaultConfig = {
 			'heading',
 			'fontFamily',
 			'fontSize',
-      'fontColor',
-      'fontBackgroundColor',
+			'fontColor',
+			'fontBackgroundColor',
 			'|',
 			'bold',
 			'italic',
@@ -117,8 +121,8 @@ ClassicEditor.defaultConfig = {
 			'alignment:right',
 			'alignment:center',
 			'undo',
-      'redo',
-      'footnote'
+			'redo',
+			'footnote'
 		]
 	},
 	image: {
