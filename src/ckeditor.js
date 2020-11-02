@@ -97,6 +97,7 @@ ClassicEditor.defaultConfig = {
 			'heading',
 			'fontFamily',
 			'fontSize',
+			'fontColor',
 			'|',
 			'bold',
 			'italic',
